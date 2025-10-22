@@ -12,15 +12,15 @@ priority, and realistic order behavior used in quantitative trading systems.
 
 ## Features
 
-## Features
-
 ### Core
+
 - Modular **logging system** for diagnostics and performance tracing
 - Custom **vector container** optimized for performance
 - **Intrusive reference counting** for lightweight memory management (replaces `std::shared_ptr`)
 - Built-in **UUID implementation** for unique order identifiers
 
 ### Order Book
+
 - **Order types**: `GoodTillCancel`, `ImmediateOrCancel`, and `GoodForDay`
 - **Matching algorithm**: strict price–time priority (FIFO within price levels)
 - **Data structures**: $O(1)$ order lookup and $O(\log n)$ price-level access using efficient maps
